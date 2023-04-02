@@ -20,7 +20,11 @@ https://docs.google.com/forms/d/e/1FAIpQLSdhBBnVVVbXSElby-jhNnEj-Zwpt5toQSCFsJer
 
 DATA TYPE LIST
 
+id (Data Type = str) :: This variable gives each included comment a unique ID. This helps with exact lookup and avoids the need for ctrl + f or visual scanning when cross-referencing automated testing with manual tests. The id value can be changed at any time and overlap is not checked.
 
+comment_text (Data Type = str) :: This variable is the main content of each comment. The string variable contains the entire text of each original comment. This includes spacing, but any newline characters have been removed and replaced with a series of spaces. 
+
+toxic (Data Type = boolean) :: This variable designates whether the comment has been manually flagged as toxic. This serves no purpose in testing other than being a reference for use when determining the accuracy of the perspective API. Toxicity being subjective means that this variable is not completely accurate. 
 
 POSSIBLE ISSUES
 
