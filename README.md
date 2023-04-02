@@ -11,6 +11,8 @@ API DOCUMENTATION
 The Perspective Comment Analyzer API - From the Google Cloud information page: "The Perspective Comment Analyzer API provides information about the potential impact of a comment on a conversation (e.g. it can provide a score for the "toxicity" of a comment). Users can leverage the "SuggestCommentScore" method to submit corrections to improve Perspective over time. Users can set the "doNotStore" flag to ensure that all submitted comments are automatically deleted after scores are returned." 
 
 Access to this private API was granted by request to the Perspective Developers. If you would like to request access to any of the API tools used in this project, you may make a request at: https://support.perspectiveapi.com/s/?language=en_US
+Google Forms Alternative:
+https://docs.google.com/forms/d/e/1FAIpQLSdhBBnVVVbXSElby-jhNnEj-Zwpt5toQSCFsJerGfpXW66CuQ/viewform
 
 DATA TYPE LIST
 
